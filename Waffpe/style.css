@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --header-font: "Poppins", sans-serif;
+    --product-font: "Ubuntu", sans-serif;
+    --exp-font: "Nunito Sans", sans-serif;
+    --second-color: #FBFCFA;
+    --third-color: #020403;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Arka plan ayarları */
+body {
+    display: block;
+    background-color: #ffffff; /* Arka plan rengi (yedek) */
+    background-image: url(images/bck.jpg); /* Arka plan resmi */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent {
+    color: transparent;
+    width: 0px;
+    height: 0px;
+}
+/* Header ayarları */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-family: var(--header-font); /* Yedek font tanımlandı */
+    color: #dc8718; /* Varsayılan renk tanımlandı */
+}
+
+.header h1 {
+    color: #dc8718; /* Varsayılan renk tanımlandı */
+    font-family: var(--header-font); /* Yedek font tanımlandı */
+    border-bottom: 5px solid #faca8c; /* Varsayılan renk tanımlandı */
+    border-top: 5px solid #fbcb8c;
+    padding: 10px; /* Kenar boşluğu */
+    text-align: center; /* Metin hizalaması */
+}
+
+.header h1 span {
+    display: flex;
+    color: #f6bf78;
+    font-family: var(--header-font);
+    margin-left: 17px;
+}
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img img {
+    display: flex;
+    margin-top: 55px;
+    width: 310px;
+    height: 350px;
+    border: 3px solid #f6bf78;
+    border-radius: 15px;
+}
+
+.menu-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.menu-name h1 {
+    color: #dc8718;
+    font-family: var(--header-font);
+    border-bottom: 4px solid #f6bf78;
+    background-color: transparent;
+
+}
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 310px;
+    height: 350px;
+    border: 3px solid #dc8718;
+    border-radius: 15px;
+}
+
+.hot-drinks {
+    display: flex;
+    justify-content: start;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+
+.hot-drinks .name {
+    display: flex;
+    font-family: var(--header-font);
+    font-size: 10.5px;
+    background: transparent;
+    color: #dc8718;
+    border-bottom: 3px solid #f6bf78;
+
+}
+
+.exp {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 6px;
+    font-family: var(--exp-font);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.name h1 i {
+    color: brown;
+} 
+
+.name h1 i2 {
+    color: #ff0000;
+}
+
+.name h1 i3 {
+    color: #8f8f00;
+}
+
+.name h1 i4 {
+   color: #FF7518;
+
+}
+
+.name h1 i5 {
+    color: rgb(129,186,255);
+    color: linear-gradient(90deg, rgba(129,186,255,1) 0%, rgba(92,214,250,1) 39%, rgba(0,164,255,1) 78%);
+
+}
+
+.name h1 i6 {
+    color: rgb(207, 207, 1);
+} 
+
+.name h1 i7 {
+    color: green;
+} 
+
+.name h1 i8 {
+    color: rgb(91, 91, 248);
+}
+
+.name h1 i9 {
+    color: #FF7518;
+}
+
+.name h1 i10 {
+    color: #ff0000;
+}
+
+.name h1 i11 {
+    color: brown;
+}
